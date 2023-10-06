@@ -1,0 +1,37 @@
+[Warning: In a future release, UI components will not be included in the output. To include UI components, use the exportapp function.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 86)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',86,0)">line 86</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('collect_data', 'C:\Users\bobre\OneDrive\Documents\Ing Física\2023\IIS - 2023\LIENE\SWRDC\code\collect_data.m', 160)" style="font-weight:bold">collect_data</a> (<a href="matlab: opentoline('C:\Users\bobre\OneDrive\Documents\Ing Física\2023\IIS - 2023\LIENE\SWRDC\code\collect_data.m',160,0)">line 160</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui>pushbutton1_Callback', 'C:\Users\bobre\OneDrive\Documents\Ing Física\2023\IIS - 2023\LIENE\SWRDC\code\gui.m', 93)" style="font-weight:bold">gui>pushbutton1_Callback</a> (<a href="matlab: opentoline('C:\Users\bobre\OneDrive\Documents\Ing Física\2023\IIS - 2023\LIENE\SWRDC\code\gui.m',93,0)">line 93</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\guide\gui_mainfcn.m',95,0)">line 95</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui', 'C:\Users\bobre\OneDrive\Documents\Ing Física\2023\IIS - 2023\LIENE\SWRDC\code\gui.m', 42)" style="font-weight:bold">gui</a> (<a href="matlab: opentoline('C:\Users\bobre\OneDrive\Documents\Ing Física\2023\IIS - 2023\LIENE\SWRDC\code\gui.m',42,0)">line 42</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)gui(''pushbutton1_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)gui('pushbutton1_Callback',hObject,eventdata,guidata(hObject))</a>] 
+
+Small Wind-turbine Rotor Design Code (SWRDC) 
+by M. Sessarego 
+Department of Mechanical and Manufacturing Engineering, University of Calgary, 
+2500 University Dr. NW, Calgary, Alberta, Canada, T2N 1N4. 
+E-mail: msessare@ucalgary.ca 
+Copyright (c) 2013, Matias Sessarego 
+All rights reserved. 
+BY INSTALLING OR USING THIS SOFTWARE, YOU AGREE TO HAVE READ THE LICENSE TERMS AS DESCRIBED IN THE README_FIRST_LICENSE.txt file 
+
+Please read the MATLAB error message regarding your 
+attempt to run SWRDC in parallel. 
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parpool')" style="font-weight:bold">parpool</a>
+Unable to create parallel pool because creating concurrent parallel pools in the same MATLAB session is not supported. To delete the existing pool, use <a href="matlab:delete(gcp('nocreate'))">delete(gcp('nocreate'))</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui>pushbutton1_Callback', 'C:\Users\bobre\OneDrive\Documents\Ing Física\2023\IIS - 2023\LIENE\SWRDC\code\gui.m', 115)" style="font-weight:bold">gui>pushbutton1_Callback</a> (<a href="matlab: opentoline('C:\Users\bobre\OneDrive\Documents\Ing Física\2023\IIS - 2023\LIENE\SWRDC\code\gui.m',115,0)">line 115</a>)
+            eval(parpool('local', numcores))
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\guide\gui_mainfcn.m',95,0)">line 95</a>)
+        feval(varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui', 'C:\Users\bobre\OneDrive\Documents\Ing Física\2023\IIS - 2023\LIENE\SWRDC\code\gui.m', 42)" style="font-weight:bold">gui</a> (<a href="matlab: opentoline('C:\Users\bobre\OneDrive\Documents\Ing Física\2023\IIS - 2023\LIENE\SWRDC\code\gui.m',42,0)">line 42</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)gui(''pushbutton1_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)gui('pushbutton1_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+Error while evaluating UIControl Callback.
+
